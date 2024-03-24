@@ -10,16 +10,18 @@ body {
 
 .width-btn {
   display: block;
-  width: 10svw;
-  margin: 0 auto;
-  margin-top: 20px;
+  height: 3svh;
+  width: fit-content;
+  margin: 1svh auto;
+  padding: 0 1svw;
 }
 
 .grid-container {
-  width: 95svw;
+  aspect-ratio: 1 / 1;
+  max-width: 95svw;
+  max-height: 90svh;
   outline: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  margin-top: 20px;
 }
