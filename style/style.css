@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.width-btn {
+  display: block;
+  width: 10svw;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.grid-container {
+  width: 95svw;
+  outline: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 20px;
+}
